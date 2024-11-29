@@ -1,3 +1,10 @@
+5.1.6 (2024-11-29)
+- deprecation message
+
+[PLEASE NOTE] This plugin is only maintained for VIP users of the website opensubtitles.org.
+You can still enjoy our free services by using our new opensubtitles.com addon in the same add-on repository.
+If you have a basic account on opensubtitles.org, you can import it to opensubtitles.com and enjoy the same services. https://www.opensubtitles.com/en/users/import
+
 5.1.5 (2024-10-15)
 - plugin takeover by os_dev
 - fixing python compatibility issues

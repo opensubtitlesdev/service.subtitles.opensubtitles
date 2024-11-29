@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="service.subtitles.opensubtitles"
        name="OpenSubtitles.org"
-       version="5.1.5"
+       version="5.1.6"
        provider-name="amet, opensubtitles, juokelis, opensubtitlesdev">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -10,7 +10,7 @@
              library="service.py" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">OpenSubtitles</summary>
-		<description lang="en_GB">Search and download subtitles for movies and TV-Series from OpenSubtitles.org. Search in 75 languages, 4.000.000+ subtitles, daily updates.</description>
+		<description lang="en_GB">Search and download subtitles for movies and TV-Series from OpenSubtitles.org. Search in 75 languages, 8.000.000+ subtitles, daily updates.</description>
 		<description lang="ast_ES">Pelis and Subtítulos TV en munches llingües, milenta de subtítulos traducíos y xubíos caldía. Descarga llibre dende la fonte, sofitu API, millones d'usuarios.</description>
 		<description lang="br_FR">Istitloù Filmoù ha TV e meur a yezh, miliadoù a istitloù troet hag uskarget bemdez. Pellgargadenn digoust diouzh ar vammenn, skoazell an API, millionoù a implijerien.</description>
 		<description lang="ca_ES">Subtítols de films i televisió en múltiples idiomes, milers de subtítols traduïts carregats diàriament. Descàrrega gratuïta des de la font, suport de l'API, amb milions d'usuaris.</description>
@@ -51,8 +51,12 @@
 		<description lang="zh_CN">多语种的电影及剧集字幕，每日更新千余条翻译好的字幕。免费下载，提供API接口，已拥有上百万的用户。</description>
 		<disclaimer lang="en_GB">Users need to provide OpenSubtitles.org username and password in add-on configuration</disclaimer>
 		<news>
-v5.1.5 (2024-10-15)
-- fixing python compatibility issues
+5.1.6 (2024-11-29)
+- deprecation message
+
+[PLEASE NOTE] This plugin is only maintained for VIP users of the website opensubtitles.org.
+You can still enjoy our free services by using our new opensubtitles.com addon in the same add-on repository.
+If you have a basic account on opensubtitles.org, you can import it to opensubtitles.com and enjoy the same services. https://www.opensubtitles.com/en/users/import
 		</news>
 		<platform>all</platform>
 		<license>GPL-2.0-only</license>
@@ -66,6 +70,6 @@ v5.1.5 (2024-10-15)
 			<screenshot>resources/media/screenshot_2.jpg</screenshot>
 			<screenshot>resources/media/screenshot_3.jpg</screenshot>
 		</assets>
-		<source>https://github.com/juokelis/service.subtitles.opensubtitles</source>
+		<source>https://github.com/opensubtitlesdev/service.subtitles.opensubtitles</source>
 	</extension>
 </addon>
